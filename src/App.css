@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background: #f9f9f9 !important;
+}
+.heading{
+  text-align: center;
+  font-weight: 600;
+}
+.table {
+	border-spacing: 0 6px;
+	border-collapse: separate;
+}
+.table thead tr th,
+.table thead tr td,
+.table tbody tr th,
+.table tbody tr td {
+	vertical-align: middle;
+  text-align: center;
+	border: none;
+  padding: 15px 20px;
+}
+
+.table tbody tr {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+.table tbody tr td {
+	background: #fff;
+}
+
+td span{
+  font-size: 22px;
+  margin-left: 20px;
+}
+.edit:hover{
+cursor: pointer;
+color: rgb(0, 85, 59);
+
+}
+.delete:hover{
+  cursor: pointer;
+  color: rgb(180, 27, 22);
+}
+.edit{
+  color: rgb(29, 153, 136);
+}
+.delete{
+  color: rgb(240, 82, 76);
+}
+
+.submit{
+background-color:#00b894;
+border-radius: 5px;
+border: none;
+width: 100%;
+padding: 10px 0;
+color: white;
+letter-spacing: 3px;
+font-weight: 500;
+}
+
+.submit:hover{
+  background-color: #059679;
+}
+
+.main{
+  /* background-color: aqua; */
+  padding: 50px 0;
+}
+
+.customerForm{
+  /* background-color: aqua; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 50px 30px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.form-heading{
+  margin-top: 10px;
+}
